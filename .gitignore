@@ -5,3 +5,7 @@ cabal-dev
 *.chi
 *.chs.h
 .virthualenv
+.stack-work
+/Example_stub.h
+*.so
+*.so.a
