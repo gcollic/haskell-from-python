@@ -9,3 +9,5 @@ cabal-dev
 /Example_stub.h
 *.so
 *.so.a
+/build
+*.pyd
