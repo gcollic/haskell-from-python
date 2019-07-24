@@ -10,6 +10,12 @@ How to run the example
 ----------------------
 
 Use `make` to compile the Haskell and C helper code.
+The equivalent commands are :
+
+``` shell
+stack ghc -- -c -fPIC .\Example.hs .\wrapper.c
+stack ghc -- -o libffi-example.so -shared -fPIC .\Example.o .\wrapper.o
+```
 
 Then run `python program.py` to run the example.
 
