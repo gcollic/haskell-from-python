@@ -1,0 +1,8 @@
+.stack-work
+build
+dist
+*.so
+*.so.a
+*.o
+*.pyd
+*.hi
